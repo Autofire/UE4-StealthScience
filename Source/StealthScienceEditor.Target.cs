@@ -9,6 +9,6 @@ public class StealthScienceEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.Add("StealthScience");
+		ExtraModuleNames.AddRange(new string[] { "StealthScience" });
 	}
 }

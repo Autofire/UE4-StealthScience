@@ -8,6 +8,12 @@ public class StealthScience : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "HTNPlanner" });
+
+		//PublicDependencyModuleNames.AddRange( new string[] { "HTNPlanner", } );
+		//PrivateDependencyModuleNames.AddRange( new string[] { "CoreUObject", "Engine", "AIModule" } );
+
+		//PublicDependencyModuleNames.AddRange(new string[] { "HTNPlanner" });
+		//PrivateDependencyModuleNames.AddRange(new string[] { "HTNPlanner" });
 	}
 }

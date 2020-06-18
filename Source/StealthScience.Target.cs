@@ -9,6 +9,6 @@ public class StealthScienceTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.Add("StealthScience");
+		ExtraModuleNames.AddRange(new string[] { "StealthScience" });
 	}
 }
