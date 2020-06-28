@@ -7,7 +7,18 @@
 		{
 			"Name": "StealthScience",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"AIModule",
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GOAP",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/40c1ae5f1b284d70bcc863bc98ccf68d"
 		}
 	]
 }
